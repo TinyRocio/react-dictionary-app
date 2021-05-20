@@ -9,6 +9,9 @@ function App() {
         <h1>
         Welcome to Dictionary
        </h1>
+       <h4>
+         What word can I help you define?
+       </h4>
         <Dictionary />
       </header>
       <Footer />
