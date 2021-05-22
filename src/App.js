@@ -10,7 +10,7 @@ function App() {
         Welcome to Dictionary
        </h1>
        <h4>
-         What word can I help you define?
+         What word can I help you search for?
        </h4>
         <Dictionary />
       </header>
