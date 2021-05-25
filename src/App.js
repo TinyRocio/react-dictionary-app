@@ -12,7 +12,7 @@ function App() {
        <h4>
          What word can I help you search for?
        </h4>
-        <Dictionary  />
+        <Dictionary defaultkeyword="Sun" />
       </header>
       <Footer />
     </div>
