@@ -1,0 +1,12 @@
+.Photos {
+  margin: 10px auto;
+  padding: 10px auto;
+  border: 1px solid #885df1;
+}
+
+.Photos img {
+  display: inline-block;
+  border-radius: 6px;
+  padding: 10px auto;
+  margin: 10px auto;
+}

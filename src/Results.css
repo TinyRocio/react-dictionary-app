@@ -1,0 +1,10 @@
+.Results section {
+  color: blue;
+  border-radius: 15px;
+  border: 1px solid #885df1;
+  text-transform: capitalize;
+}
+
+.Results h2 {
+  color: purple;
+}

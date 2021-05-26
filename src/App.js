@@ -5,6 +5,7 @@ import Footer from "./Footer";
 function App() {
   return (
     <div className="App">
+      <div className="container">
       <header className="App-header">
         <h1>
         Welcome to Dictionary
@@ -15,6 +16,7 @@ function App() {
         <Dictionary defaultkeyword="Sun" />
       </header>
       <Footer />
+    </div>
     </div>
   );
 }

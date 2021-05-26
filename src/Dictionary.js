@@ -3,6 +3,8 @@ import React, {useState} from "react";
 import Results from "./Results"
 import Photos from "./Photos"
 
+import "./Dictionary.css"
+
 export default function Dictionary(props){
   let [keyword ,setKeyword] = useState(props.defaultkeyword)
   let [results, setResults] = useState(null)
@@ -16,7 +18,7 @@ export default function Dictionary(props){
 
     // Photo's documention from "https://www.pexels.com/"
     let pexelsapiKey = "563492ad6f917000010000010847c1f8c3994beca0f45eccdb754114"
-    let pexelsapiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=6`
+    let pexelsapiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=9`
     let headers = {Authorization: `Bearer ${pexelsapiKey}`}
     axios.get(pexelsapiUrl, { headers : headers } ).then(displayPexelsResponse)
   }
@@ -27,7 +29,6 @@ export default function Dictionary(props){
   }
   
   function displayPexelsResponse(response){
-    console.log(response.data.photos)
     setPhotos(response.data.photos)
   }
   
@@ -47,6 +48,7 @@ export default function Dictionary(props){
   if (loaded) {
     return (
       <div className="Dictionary">
+        <section>
       <form onSubmit={submit}>
         <input 
         type="search" 
@@ -54,6 +56,7 @@ export default function Dictionary(props){
         autoFocus={true}
         />
       </form>
+      </section>
       <Results results={results}/>
       <Photos photos={photos} />
       </div>
