@@ -1,11 +1,10 @@
 .Dictionary section {
-  margin: 30px auto;
+  margin: 15px auto;
   display: block;
-  border: 1px solid #885df1;
-  border-radius: 30px;
-  max-width: 700px;
+  border-radius: 15px;
+  max-width: 600px;
   box-shadow: 2px 5px 5px rgb(0 0 0 / 20%);
-  background: linear-gradient(to bottom right, #fde6b6, #f9f6de, #d3afaa);
+  background: linear-gradient(to bottom right, #d5ddef, #bcb8ce, #917898);
 }
 
 .Dictionary .search {
@@ -20,4 +19,7 @@
 }
 
 /*
+#bcb8ce,
+#917898,
+#4c394f
 */
