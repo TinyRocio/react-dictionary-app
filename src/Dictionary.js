@@ -49,14 +49,26 @@ export default function Dictionary(props){
     return (
       <div className="Dictionary">
         <section>
+        <h1>
+        Welcome to Dictionary
+       </h1>
+       <h4>
+         What word can I help you search for?
+       </h4>
+       <div className="row ">
+         <div className="col">
       <form onSubmit={submit}>
         <input 
         type="search" 
         onChange={handleKeywordChange}
         autoFocus={true}
+        className="search btn btn-outline-secondary"
+        placeholder={keyword}
         />
       </form>
-      </section>
+        </div>
+        </div>
+        </section>
       <Results results={results}/>
       <Photos photos={photos} />
       </div>

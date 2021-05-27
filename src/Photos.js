@@ -16,11 +16,14 @@ export default function Photos(props){
             rel="noreferrer"
             >
             <img 
-            src={photos.src.landscape} 
+            src={photos.src.portrait} 
             className="img-fluid"
-            alt="#" 
+            alt={photos.photographer}
             />
             </a>
+            <div className="overlay">
+              {photos.photographer}
+            </div>
             </div>
           )
         })}

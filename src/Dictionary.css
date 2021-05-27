@@ -1,5 +1,23 @@
 .Dictionary section {
+  margin: 30px auto;
+  display: block;
   border: 1px solid #885df1;
-  border-radius: 20px;
-  margin: 10px auto;
+  border-radius: 30px;
+  max-width: 700px;
+  box-shadow: 2px 5px 5px rgb(0 0 0 / 20%);
+  background: linear-gradient(to bottom right, #fde6b6, #f9f6de, #d3afaa);
 }
+
+.Dictionary .search {
+  color: black;
+  background: transparent;
+  margin-bottom: 19px;
+  border-radius: 50px;
+}
+
+.Dictionary h1 {
+  margin-top: 10px;
+}
+
+/*
+*/

@@ -1,12 +1,22 @@
-.Photos {
-  margin: 10px auto;
-  padding: 10px auto;
-  border: 1px solid #885df1;
+.Photos img {
+  border-radius: 15px;
+  padding: 10px 9px;
+  margin: 9px 2px;
 }
 
-.Photos img {
-  display: inline-block;
-  border-radius: 6px;
-  padding: 10px auto;
-  margin: 10px auto;
+.Photos .overlay {
+  position: relative;
+  bottom: 64px;
+  left: 24px;
+  width: 80%;
+  transition: 0.5s ease;
+  opacity: 0;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.container:hover .overlay {
+  opacity: 1;
 }

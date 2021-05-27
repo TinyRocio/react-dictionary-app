@@ -1,10 +1,9 @@
 .Results section {
-  color: blue;
   border-radius: 15px;
-  border: 1px solid #885df1;
   text-transform: capitalize;
+  margin-top: 20px;
 }
 
 .Results h2 {
-  color: purple;
+  margin-top: 10px;
 }
