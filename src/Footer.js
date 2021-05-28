@@ -6,7 +6,9 @@ export default function Footer(){
       <p>
         <a href="https://github.com/TinyRocio/react-dictionary-app">
         Coded </a>
-        by  
+        <small>
+          by
+          </small>  
         <a 
         href="https://www.linkedin.com/in/rocio-valenzuela-4b3069104/"
         taret="_blank"

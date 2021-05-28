@@ -11,7 +11,7 @@ export default function Synonyms(props){
             {synonyms}
           </li>
             )
-        })}
+          })}
       </ul>
     )
   } else {

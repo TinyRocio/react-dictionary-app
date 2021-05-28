@@ -7,7 +7,11 @@ export default function Reults(props){
   if (props.results){
     return (
       <div className="Results">
-        <section>
+        <div className="row">
+          <div className="col">
+            <i className="fas fa-feather-alt"></i>
+          </div>
+          <div className="col">
       <h2>{props.results.word} </h2>
       {props.results.phonetics.map(function(phonetics, index){
         return (
@@ -16,7 +20,12 @@ export default function Reults(props){
           </div>
         )
       })}
-      </section>
+      </div>
+      <div className="col">
+        <i className="fas fa-feather-alt"></i>
+      </div>
+      </div>
+      <hr />
       {props.results.meanings.map(function
       (meaning, index){
         return (
@@ -31,3 +40,6 @@ export default function Reults(props){
   return null
 }
 }
+
+
+          // <i class="fas fa-feather-alt"></i>

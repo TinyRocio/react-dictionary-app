@@ -1,4 +1,30 @@
 .App {
   text-align: center;
+}
+
+.App .container {
   font-family: "Yeon Sung", monospace;
+  font-size: 20px;
+  margin: 15px auto;
+  display: block;
+  border-radius: 15px;
+  max-width: 750px;
+  box-shadow: 2px 5px 5px rgb(0 0 0 / 20%);
+  background: linear-gradient(
+    to bottom right,
+    #57394a,
+    #dbb0a0,
+    #eab586,
+    #57394a
+  );
+  background-blend-mode: lighten;
+}
+
+a {
+  color: black;
+  font-family: "Finger Paint", cursive;
+}
+
+.App .icon {
+  color: #9fd0de;
 }

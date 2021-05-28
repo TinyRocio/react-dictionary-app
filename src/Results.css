@@ -1,9 +1,14 @@
-.Results section {
-  border-radius: 15px;
+.Results {
   text-transform: capitalize;
-  margin-top: 20px;
 }
 
 .Results h2 {
   margin-top: 10px;
+  font-size: 55px;
+}
+
+.fa-feather-alt {
+  margin-top: 18px;
+  font-size: 55px;
+  color: #9fd0de;
 }

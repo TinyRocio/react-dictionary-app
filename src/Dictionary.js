@@ -48,27 +48,27 @@ export default function Dictionary(props){
   if (loaded) {
     return (
       <div className="Dictionary">
-        <section>
-        <h1>
-        Welcome to Dictionary
-       </h1>
-       <h4>
-         What word can I help you search for?
-       </h4>
-       <div className="row ">
-         <div className="col">
       <form onSubmit={submit}>
+        <div className="row justify-content-md-center">
+          <div className="col-8">
         <input 
         type="search" 
         onChange={handleKeywordChange}
         autoFocus={true}
-        className="search btn btn-outline-secondary"
+        className="search btn btn-outline-secondary w-100"
         placeholder={keyword}
         />
+        </div>
+        <div className="col-3">
+          <button
+          type="submit" 
+          className="submit btn btn-secondary w-100">
+            <i className="fas fa-search"></i>
+          </button>
+            </div>
+            </div>
       </form>
-        </div>
-        </div>
-        </section>
+        <hr />
       <Results results={results}/>
       <Photos photos={photos} />
       </div>

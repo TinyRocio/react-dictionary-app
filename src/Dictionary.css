@@ -1,25 +1,18 @@
-.Dictionary section {
-  margin: 15px auto;
-  display: block;
-  border-radius: 15px;
-  max-width: 600px;
-  box-shadow: 2px 5px 5px rgb(0 0 0 / 20%);
-  background: linear-gradient(to bottom right, #d5ddef, #bcb8ce, #917898);
-}
-
 .Dictionary .search {
   color: black;
   background: transparent;
   margin-bottom: 19px;
+  border-radius: 20px;
+}
+
+.Dictionary .submit {
+  color: black;
+  background: transparent;
   border-radius: 50px;
+  transition: ease-in-out, 200ms;
 }
 
-.Dictionary h1 {
-  margin-top: 10px;
+.submit:hover {
+  cursor: pointer;
+  color: white;
 }
-
-/*
-#bcb8ce,
-#917898,
-#4c394f
-*/

@@ -1,3 +1,7 @@
 .Meaning {
   margin-top: 10px;
 }
+
+.Meaning .example {
+  color: rgb(59, 129, 120);
+}
