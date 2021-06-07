@@ -56,7 +56,6 @@ export default function Dictionary(props){
         onChange={handleKeywordChange}
         autoFocus={true}
         className="search btn btn-outline-secondary w-100"
-        placeholder={keyword}
         />
         </div>
         <div className="col-3">
