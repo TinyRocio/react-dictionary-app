@@ -11,7 +11,7 @@ function App() {
         Welcome to Dictionary 
         {" "}
         <span className="icon">
-        <i class="fas fa-book-open"></i>
+        <i className="fas fa-book-open"></i>
         </span>
        </h1>
        <h4>

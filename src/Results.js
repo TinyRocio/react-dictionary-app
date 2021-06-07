@@ -40,6 +40,3 @@ export default function Reults(props){
   return null
 }
 }
-
-
-          // <i class="fas fa-feather-alt"></i>
